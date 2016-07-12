@@ -1,3 +1,6 @@
+# Dropbot
+Dropbot is a mod to the wonderful Airhorn Bot, including more sound drops and a help system. Currently I host the bot on a dedicated server and do not make use of the webserver, so I cannot guarantee the webserver still works. The original Airhorn bot instructions are included below.
+
 # Airhorn Bot
 Airhorn is an example implementation of the [Discord API](https://discordapp.com/developers/docs/intro). Airhorn bot utilizes the [discordgo](https://github.com/bwmarrin/discordgo) library, a free and open source library. Airhorn Bot requires Go 1.4 or higher.
 
