@@ -585,7 +585,7 @@ func (s *SoundCollection) Random() *Sound {
 // https://github.com/nstafie/dca-rs
 // eg: dca-rs --raw -i <input wav file> > <output file>
 func (s *Sound) Load(c *SoundCollection) error {
-	path := fmt.Sprintf("audio/%v_%v.dca", c.Prefix, s.Name)
+	path := fmt.Sprintf("../src/github.com/ptoast/dropbot/audio/%v_%v.dca", c.Prefix, s.Name)
 
 	file, err := os.Open(path)
 
