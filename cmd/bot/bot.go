@@ -1112,7 +1112,7 @@ func onMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 			} else if parts[0] == "!colorme" {
 			
 				s.ChannelMessageSend(m.ChannelID, "Coming soon :)")
-			
+			}
 		}
 	}
 	
