@@ -133,6 +133,19 @@ var ARFENHOUSE *SoundCollection = &SoundCollection{
 	},
 }
 
+var BADLIPREAD *SoundCollection = &SoundCollection{
+	Prefix: "blr",
+	Commands: []string{
+		"!blr",
+	},
+	Sounds: []*Sound{
+		createSound("aunt", 100, 250),
+		createSound("gum", 100, 250),
+		createSound("party", 100, 250),
+		createSound("punched", 100, 250),
+	},
+}
+
 var CENA *SoundCollection = &SoundCollection{
 	Prefix: "jc",
 	Commands: []string{
@@ -226,6 +239,61 @@ var FREAK *SoundCollection = &SoundCollection{
 	Sounds: []*Sound{
 		createSound("cutitout", 100, 250),
 		createSound("weenie", 100, 250),
+	},
+}
+
+var GIJOE *SoundCollection = &SoundCollection{
+	Prefix: "gijoe",
+	Commands: []string{
+		"!gijoe",
+	},
+	Sounds: []*Sound{
+		createSound("computer", 100, 250),
+		createSound("getout", 100, 250),
+		createSound("massage", 100, 250),
+	},
+}
+
+var GRUDEN *SoundCollection = &SoundCollection{
+	Prefix: "gruden",
+	Commands: []string{
+		"!gruden",
+	},
+	Sounds: []*Sound{
+		createSound("confusing", 100, 250),
+		createSound("s2yb", 100, 250),
+		createSound("s2yb2", 100, 250),
+		createSound("s2yb3", 100, 250),
+	},
+}
+
+var GROUPX *SoundCollection = &SoundCollection{
+	Prefix: "gx",
+	Commands: []string{
+		"!gx",
+	},
+	Sounds: []*Sound{
+		createSound("guess", 100, 250),
+		createSound("hey", 100, 250),
+		createSound("idiot", 100, 250),
+		createSound("iwant", 100, 250),
+		createSound("letsplay", 100, 250),
+		createSound("shiggity", 100, 250),
+		createSound("sogood", 100, 250),
+		createSound("today", 100, 250),
+		createSound("whatyousay", 100, 250),
+		createSound("wrong", 100, 250),
+	},
+}
+
+var HURRY *SoundCollection = &SoundCollection{
+	Prefix: "hurry",
+	Commands: []string{
+		"!hurry",
+	},
+	Sounds: []*Sound{
+		createSound("glacial", 100, 250),
+		createSound("stormy", 100, 250),
 	},
 }
 
@@ -333,6 +401,7 @@ var RANKUP *SoundCollection = &SoundCollection{
 		createSound("3", 25, 250),
 		createSound("4", 12, 250),
 		createSound("5", 6, 250),
+		createSound("bloody", 100, 250),
 	},
 }
 
@@ -484,12 +553,66 @@ var SOUTHPARK *SoundCollection = &SoundCollection{
 	},
 }
 
+var STRATEGY *SoundCollection = &SoundCollection{
+	Prefix: "strategy",
+	Commands: []string{
+		"!strategy",
+	},
+	Sounds: []*Sound{
+		createSound("day9", 100, 250),
+		createSound("fail", 100, 250),
+		createSound("good", 100, 250),
+		createSound("new", 100, 250),
+		createSound("soundsgood", 100, 250),
+		createSound("stop", 100, 250),
+		createSound("what", 100, 250),
+		createSound("yougot", 100, 250),
+	},
+}
+
+var SILICONVALLEY *SoundCollection = &SoundCollection{
+	Prefix: "sv",
+	Commands: []string{
+		"!sv",
+	},
+	Sounds: []*Sound{
+		createSound("choke", 100, 250),
+		createSound("fucked", 100, 250),
+		createSound("marijuanas", 100, 250),
+		createSound("now", 100, 250),
+		createSound("piss", 100, 250),
+	},
+}
+
+var TGUY *SoundCollection = &SoundCollection{
+	Prefix: "tguy",
+	Commands: []string{
+		"!tguy",
+	},
+	Sounds: []*Sound{
+		createSound("bobsaget", 100, 250),
+	},
+}
+
+var TROOPERS *SoundCollection = &SoundCollection{
+	Prefix: "troop",
+	Commands: []string{
+		"!troop",
+	},
+	Sounds: []*Sound{
+		createSound("gotyou", 100, 250),
+	},
+}
+
 var WTF *SoundCollection = &SoundCollection{
 	Prefix: "wtf",
 	Commands: []string{
 		"!wtf",
 	},
 	Sounds: []*Sound{
+		createSound("50dkp", 100, 250),
+		createSound("bullshit", 100, 250),
+		createSound("cares", 100, 250),
 		createSound("disappointed", 100, 250),
 		createSound("dumbass", 100, 250),
 		createSound("happened", 100, 250),
@@ -517,6 +640,7 @@ var CMDCOLORME *CommandCollection = &CommandCollection{
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	ARFENHOUSE,
+	BADLIPREAD,
 	CENA,
 	COW,
 	DECTALK,
@@ -524,6 +648,10 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	DUNKED,
 	EASPORTS,
 	FREAK,
+	GIJOE,
+	GRUDEN,
+	GROUPX,
+	HURRY,
 	JONTRON,
 	JURASSIC,
 	KATA,
@@ -539,6 +667,10 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	SNOOP,
 	SONGIFY,
 	SOUTHPARK,
+	STRATEGY,
+	SILICONVALLEY,
+	TGUY,
+	TROOPERS,
 	WTF,
 }
 
