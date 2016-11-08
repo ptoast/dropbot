@@ -109,6 +109,17 @@ var AIRHORN *SoundCollection = &SoundCollection{
 	},
 }
 
+var AMERICA *SoundCollection = &SoundCollection{
+	Prefix: "america",
+	Commands: []string{
+		"!america",
+	},
+	Sounds: []*Sound{
+		createSound("sad", 100, 250),
+	
+	},
+}
+
 var ARFENHOUSE *SoundCollection = &SoundCollection{
 	Prefix: "arfen",
 	Commands: []string{
@@ -199,6 +210,22 @@ var DECTALK *SoundCollection = &SoundCollection{
 	},
 }
 
+var DEMETRY *SoundCollection = &SoundCollection{
+	Prefix: "demetry",
+	Commands: []string{
+		"!demetry",
+	},
+	Sounds: []*Sound{
+		createSound("back", 100, 250),
+		createSound("fuckit", 100, 250),
+		createSound("getoffme", 100, 250),
+		createSound("sharper", 100, 250),
+		createSound("superman", 100, 250),
+		createSound("touchdown", 100, 250),
+
+	},
+}
+
 var DRWEIRD *SoundCollection = &SoundCollection{
 	Prefix: "drweird",
 	Commands: []string{
@@ -239,6 +266,20 @@ var FREAK *SoundCollection = &SoundCollection{
 	Sounds: []*Sound{
 		createSound("cutitout", 100, 250),
 		createSound("weenie", 100, 250),
+	},
+}
+
+var GG *SoundCollection = &SoundCollection{
+	Prefix: "gg",
+	Commands: []string{
+		"!gg",
+	},
+	Sounds: []*Sound{
+		createSound("giveup", 100, 250),
+		createSound("life", 100, 250),
+		createSound("today", 100, 250),
+		createSound("whatisthis", 100, 250),
+
 	},
 }
 
@@ -405,6 +446,19 @@ var RANKUP *SoundCollection = &SoundCollection{
 	},
 }
 
+var RET *SoundCollection = &SoundCollection{
+	Prefix: "ret",
+	Commands: []string{
+		"!ret",
+	},
+	Sounds: []*Sound{
+		createSound("best", 100, 250),
+		createSound("blizz", 100, 250),
+		createSound("makeit", 100, 250),
+
+	},
+}
+
 // Disabled because volume too loud right now.
 //var SANIC *SoundCollection = &SoundCollection{
 //	Prefix: "sanic",
@@ -458,6 +512,7 @@ var SEALAB *SoundCollection = &SoundCollection{
 		createSound("mindmeld", 100, 250),
 		createSound("myclan", 100, 250),
 		createSound("ragnor", 100, 250),
+		createSound("sealab", 100, 250),
 		createSound("shillelagh", 100, 250),
 		createSound("shutup", 100, 250),
 		createSound("smoothie", 100, 250),
@@ -600,7 +655,12 @@ var TROOPERS *SoundCollection = &SoundCollection{
 		"!troop",
 	},
 	Sounds: []*Sound{
+		createSound("bar", 100, 250),
+		createSound("chicken", 100, 250),
+		createSound("enhance", 100, 250),
 		createSound("gotyou", 100, 250),
+		createSound("mother", 100, 250),
+		createSound("snozz", 100, 250),
 	},
 }
 
@@ -639,16 +699,19 @@ var CMDCOLORME *CommandCollection = &CommandCollection{
 
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
+	AMERICA,
 	ARFENHOUSE,
 	BADLIPREAD,
 	CENA,
 	COW,
 	DECTALK,
+	DEMETRY,
 	DRWEIRD,
 	DUNKED,
 	EASPORTS,
 	FREAK,
 	GIJOE,
+	GG,
 	GRUDEN,
 	GROUPX,
 	HURRY,
@@ -661,6 +724,7 @@ var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	ORSON,
 	PENIS,
 	RANKUP,
+	RET,
 	SBEMAIL,
 	SEALAB,
 	SIMPSONS,
