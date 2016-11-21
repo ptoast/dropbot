@@ -543,6 +543,7 @@ var SNOOP *SoundCollection = &SoundCollection{
 	Sounds: []*Sound{
 		createSound("adventure", 100, 250),
 		createSound("need", 100, 250),
+		createSound("overture", 10, 250),
 		createSound("pokemon", 100, 250),
 		createSound("punch", 100, 250),
 		createSound("sm641", 100, 250),
